@@ -24,14 +24,14 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/singer.jpg"
-              text="Actor or Actress?"
+              src="images/models3.jpg"
+              text="Actor/Actress/Model?"
               label="Acting"
               path="/search"
             />
             <CardItem
-              src="one-stop/src/images/dancer.jpg"
-              text="Dancer"
+              src="/images/dancer.jpg"
+              text="Dancer?"
               label="Dancer"
               path="/search"
             />

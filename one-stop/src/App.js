@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
-import Services from "./components/pages/Services";
+import Search from "./components/pages/Search";
 import Contact from "./components/pages/Contact";
 import Book from "./components/pages/Book";
 
@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/services" component={Services} />
+          <Route path="/search" component={Search} />
           <Route path="/contact" component={Contact} />
           <Route path="/book" component={Book} />
         </Switch>
