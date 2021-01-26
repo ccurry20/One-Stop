@@ -30,16 +30,6 @@ To create a One Stop shop for gigs and employment for Independent music artists,
 
 <br/>
 <br/>
-<br/>
-
-   <h1 align="center">UI/UX</h1> 
-   <div width="100%">
-        <img src="https://avatars0.githubusercontent.com/u/48630065?s=460&v=4" width = "100" text-align="center" /> 
-        <img src="https://avatars3.githubusercontent.com/u/49910197?v=4" width = "100" text-align="center" />
-   </div>
-
-(https://github.com/ccurry20)
-
 
 ## Web Developer
 [<img src="https://avatars1.githubusercontent.com/u/19153270?v=4" width = "100" />](https://github.com/ccurry20)
