@@ -8,8 +8,8 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video src="/videos/video2.mp4" autoPlay loop muted />
-      <h1>ONE STOP MUSIC</h1>
-      <p>Gig listings for independent music artist</p>
+      <h1>ONE STOP SHOP</h1>
+      <p>Gigs for independent artists</p>
       <div className="hero-btns">
         <Button
           className="btns"
