@@ -25,12 +25,12 @@
 }
 
 .btn--medium {
-  padding: 12px 26px;
-  font-size: 20px;
+  padding: 8px 20px;
+  font-size: 18px;
 }
 
 .btn--large {
-  padding: 12px 30px;
+  padding: 12px 26px;
   font-size: 20px;
 }
 
