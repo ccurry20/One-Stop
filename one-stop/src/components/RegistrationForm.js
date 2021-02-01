@@ -20,13 +20,14 @@ function RegistrationForm(props) {
   };
   const sendDetailsToServer = () => {
     if (state.email.length && state.password.length) {
-      props.showError(null);
+      //props.showError(null);
       const payload = {
         email: state.email,
         password: state.password,
       };
       axios
-        .post(API_BASE_URL + "/api/register", payload)
+        //.post(API_BASE_URL + "/api/register", payload)
+        .post("http://localhost:8080/api/user/register", payload)
         .then(function (response) {
           if (response.status === 200) {
             setState((prevState) => ({
@@ -36,16 +37,16 @@ function RegistrationForm(props) {
             }));
             localStorage.setItem(ACCESS_TOKEN_NAME, response.data.token);
             redirectToHome();
-            props.showError(null);
+            //props.showError(null);
           } else {
-            props.showError("Some error ocurred");
+            //props.showError("Some error ocurred");
           }
         })
         .catch(function (error) {
           console.log(error);
         });
     } else {
-      props.showError("Please enter valid username and password");
+      //this.props.showError("Please enter valid username and password");
     }
   };
   const redirectToHome = () => {
@@ -61,7 +62,7 @@ function RegistrationForm(props) {
     if (state.password === state.confirmPassword) {
       sendDetailsToServer();
     } else {
-      props.showError("Passwords do not match");
+      this.props.showError("Passwords do not match");
     }
   };
   return (
