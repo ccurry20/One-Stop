@@ -2,7 +2,7 @@ import React from "react";
 import "./HeroSection.css";
 import "../App.css";
 import "./Button.css";
-import { Button } from "./Button";
+import { SearchButton } from "./SearchButton";
 
 function HeroSection() {
   return (
@@ -11,21 +11,21 @@ function HeroSection() {
       <h1>ONE STOP SHOP</h1>
       <p>Gigs for independent artists</p>
       <div className="hero-btns">
-        <Button
+        <SearchButton
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
           SEARCH LISTINGS
-        </Button>
+        </SearchButton>
 
-        <Button
+        <SearchButton
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
           LEARN MORE <i className="far fa-play-circle" />
-        </Button>
+        </SearchButton>
       </div>
     </div>
   );

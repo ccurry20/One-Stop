@@ -1,12 +1,12 @@
 import React from "react";
 import Banner from "./Banner";
-import Article from "./Article";
+import Article from "./Articles/Article";
 
 const Welcome = () => {
   return (
     <div>
       <Banner
-        backgroundImage="url(images/model2.jpg)"
+        //backgroundImage="url(images/model2.jpg)"
         title="Latest Gig Posts"
         subtitle="Check out the latest listings"
       />
