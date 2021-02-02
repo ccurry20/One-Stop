@@ -6,9 +6,9 @@ const Welcome = () => {
   return (
     <div>
       <Banner
-        backgroundImage="url(images/bg-gift.jpg)"
-        title="Latest Blog Posts"
-        subtitle="Read and get updated on the latest posts"
+        backgroundImage="url(images/model2.jpg)"
+        title="Latest Gig Posts"
+        subtitle="Check out the latest listings"
       />
 
       <main className="main-content bg-gray">

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Article = () => {
   return (
     <article className="mt-90">
-      <header className="text-center mb-40">
+      <header className="text-center mb-40 bg-black-400">
         <h3>
           <a href="blog-single.html">New features will add to dashboard soon</a>
         </h3>

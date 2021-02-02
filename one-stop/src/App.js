@@ -7,6 +7,7 @@ import Search from "./components/pages/Search";
 import Contact from "./components/pages/Contact";
 import Book from "./components/pages/Book";
 import Login from "./components/pages/Login";
+import Register from "./components/pages/Register";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/book" component={Book} />
           <Route path="/login" component={Login} />
+          <Route path="/register" component={Register} />
         </Switch>
       </Router>
     </>

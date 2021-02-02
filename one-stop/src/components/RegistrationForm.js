@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./RegistrationForm.css";
-import { API_BASE_URL, ACCESS_TOKEN_NAME } from "../constants/apiConstants";
+import { ACCESS_TOKEN_NAME } from "../constants/apiConstants";
 import { withRouter } from "react-router-dom";
 
 function RegistrationForm(props) {
@@ -29,7 +29,7 @@ function RegistrationForm(props) {
         //.post(API_BASE_URL + "/api/register", payload)
         .post("http://localhost:8080/api/user/register", payload)
         .then(function (response) {
-          if (response.status === 200) {
+          if (response.status === 201) {
             setState((prevState) => ({
               ...prevState,
               successMessage:
@@ -50,11 +50,12 @@ function RegistrationForm(props) {
     }
   };
   const redirectToHome = () => {
-    props.updateTitle("Home");
+    //props.updateTitle("Home");
+    alert("Registration successful. Redirecting to home page");
     props.history.push("/");
   };
   const redirectToLogin = () => {
-    props.updateTitle("Login");
+    //props.updateTitle("Login");
     props.history.push("/login");
   };
   const handleSubmitClick = (e) => {

@@ -1,13 +1,13 @@
 import React from "react";
-import Footer from "../Footer";
 import "../../App.css";
+import ContactForm from "../ContactForm";
 //import Form from "../Form";
 
 function Contact() {
   return (
-    <>
-      <Footer />
-    </>
+    <div className="App">
+      <ContactForm />
+    </div>
   );
 }
 
