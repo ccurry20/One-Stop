@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "./Banner";
 import Article from "./Articles/Article";
+import ArticleTwo from "./Articles/ArticleTwo";
+import ArticleThree from "./Articles/ArticleThree";
 
 const Welcome = () => {
   return (
@@ -16,9 +18,9 @@ const Welcome = () => {
           <div className="col-12 col-lg-6 offset-lg-3">
             <Article />
             <hr />
-            <Article />
+            <ArticleTwo />
             <hr />
-            <Article />
+            <ArticleThree />
             <nav className="flexbox mt-50 mb-50">
               <a className="btn btn-white disabled">
                 <i className="ti-arrow-left fs-9 mr-4" /> Newer
